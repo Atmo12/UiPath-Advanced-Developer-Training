@@ -1,0 +1,17 @@
+Note
+
+If the PDF is opened with Adobe Reader DC Acrobat, 
+there might be a few steps to take before you can 
+extract specific elements using UiPath studio methods. 
+Start Acrobat and press Ctrl+K. That opens the Preferences 
+pop-up. Select Reading, out of the categories on the left 
+panel. Verify that the drop down Reading Order options is 
+set to the Acrobat recommended option, 'Infer reading order 
+from document (recommended)', 'Page vs. Document': should be 
+set to 'Read the entire document' and 'Confirm before tagging 
+documents' should be unchecked. Then on the left panel, click 
+Accessibility. In the Other Accessibility Options section, 
+check the first two boxes if they are not already checked: 
+'Use document structure for tab order when no explicit tab 
+order is specified', 'Enable assistive technology support', 
+and click OK.
